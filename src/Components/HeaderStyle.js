@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Contain = styled.div`
   background-image: url(/images/back-img.png);
-  height: 80vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13,14 +12,6 @@ export const Div = styled.div`
     font-size: clamp(0.6rem, 1.1vw, 1.3rem);
     margin: 0 0.5vw;
   }
-`;
-
-export const NavImg = styled.div`
-  background-image: url(/images/group.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 126vh;
-  width: clamp(2rem, 120vw, 60rem);
 `;
 
 export const Navbar = styled.div`

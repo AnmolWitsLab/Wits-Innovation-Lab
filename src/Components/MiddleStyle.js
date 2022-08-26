@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const Div2 = styled.div`
-  border: 1px solid black;
-  margin: 8vh 10.5vw 0 9.2vw;
-  z-index: 1;
+  margin: 12vh 10.5vw 0 9vw;
 
   i {
     color: #1d2e88;
@@ -11,8 +9,9 @@ export const Div2 = styled.div`
 `;
 
 export const Heading = styled.h1`
-  width: clamp(22rem, 30vw, 60rem);
-  font-size: clamp(2.6rem, 3.5vw, 30rem);
+  width: clamp(330px, 38vw, 60rem);
+  font-size: clamp(2.3rem, 4.3vw, 7rem);
+  font-weight: 900;
 `;
 
 export const Span = styled.span`
@@ -21,24 +20,25 @@ export const Span = styled.span`
 
 export const Pera = styled.p`
   font-weight: 500;
-  width: clamp(24rem, 30vw, 38rem);
-  font-size: clamp(0.9rem, 1.1vw, 15rem);
-  margin: 3vh 0 0 0;
+  width: clamp(350px, 35vw, 900px);
+  font-size: clamp(0.8rem, 1.3vw, 2rem);
+  margin: 4vh 0 0 0;
 `;
 export const MiddleBtn = styled.div`
-  margin: 8vh 0 0 0;
+  margin: 9.6vh 0 0 0;
 `;
 export const BtnTellUs = styled.button`
   background-color: #1d2e88;
   color: white;
   border: none;
-  padding: 1.2vh 1.5vw;
+  padding: 1.8vh 1.5vw;
   font-weight: 600;
   font-size: clamp(0.8rem, 1.2vw, 15rem);
 `;
 export const BtnArrow = styled.button`
   background-color: #f9c51c;
   border: none;
-  padding: 1.2vh 0.6vw;
+  padding: 1.8vh 0.6vw;
   font-size: clamp(0.8rem, 1.2vw, 15rem);
+  width: clamp(25px, 2vw, 50px);
 `;
