@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 export const Div2 = styled.div`
   margin: 12vh 10.5vw 0 9vw;
-
-  i {
-    color: #1d2e88;
-  }
+`;
+export const Ico = styled.i`
+  color: #1d2e88;
 `;
 
 export const Heading = styled.h1`

@@ -9,6 +9,7 @@ import {
   MiddleBtn,
   BtnTellUs,
   BtnArrow,
+  Ico,
 } from "./MiddleStyle";
 
 function Middle() {
@@ -27,7 +28,9 @@ function Middle() {
         <MiddleBtn>
           <BtnTellUs>Tell Us About Your Project</BtnTellUs>
           <BtnArrow>
-            <i className="fa-solid fa-angle-right"></i>
+            <Ico>
+              <i className="fa-solid fa-angle-right"></i>
+            </Ico>
           </BtnArrow>
         </MiddleBtn>
 

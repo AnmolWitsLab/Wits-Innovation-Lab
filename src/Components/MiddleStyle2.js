@@ -4,12 +4,6 @@ export const Div3 = styled.div`
   display: flex;
   align-items: center;
   margin: 13vh 0 0 0;
-
-  i {
-    font-size: clamp(0.8rem, 1.5vw, 5rem);
-    color: black;
-    margin: 0.2vh 0.2vw 0vh 0.2vw;
-  }
 `;
 
 export const FollowUs = styled.p`
@@ -22,7 +16,12 @@ export const Line = styled.div`
   margin: 0vh 2vw 0vh 2vw;
 `;
 
-export const MiddleIcons = styled.div`
+export const MiddleIcons = styled.div``;
+
+export const Ic = styled.i`
+  font-size: clamp(0.8rem, 1.5vw, 5rem);
+  color: black;
   display: flex;
-  column-gap: 1vw;
+  gap: 1.5vw;
+  margin: 0.2vh 0.2vw 0vh 0.2vw;
 `;
