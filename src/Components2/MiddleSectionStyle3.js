@@ -5,7 +5,7 @@ export const Div5 = styled.div`
   border-bottom: 1.5px solid rgba(29, 46, 136, 0.5);
   display: flex;
   align-items: center;
-  margin: 32vh 0;
+  margin: 13.4vw 0;
   padding: 11vh 0vw 13vh 0vw;
   flex-direction: column;
   background-color: white;
@@ -26,7 +26,7 @@ export const MainP = styled.p`
 
 export const MainH = styled.h1`
   font-size: 3.4vw;
-  border-bottom: 0.8vw solid #f9c51c;
+  border-bottom: 0.9vw solid #f9c51c;
   text-align: center;
   width: fit-content;
   height: 3.7vw;
@@ -49,7 +49,7 @@ export const Pera2 = styled.p`
 export const Images = styled.div`
   display: flex;
   column-gap: 6vw;
-  margin: 8vh 0vw 0vh 0vw;
+  margin: 6vw 0vw 0vh 0vw;
 `;
 
 export const Nutrition = styled.img`

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Mid = styled.div`
-  margin: 25vh 0vw 0vh 0vw;
+  margin: 11vw 0vw 0vh 0vw;
 `;
 
 export const Head2 = styled.div`
@@ -12,7 +12,7 @@ export const Head2 = styled.div`
 `;
 
 export const Head3 = styled.h1`
-  border-bottom: 12px solid #f9c51c;
+  border-bottom: 0.8vw solid #f9c51c;
   width: 46vw;
   height: 3.8vw;
   font-weight: 700;
@@ -26,17 +26,16 @@ export const D = styled.div`
   border: 1px solid #1d2e88;
   border-radius: 16px;
   width: 78vw;
-  height: 113vh;
   justify-content: center;
   align-items: center;
-  margin: 12vh 0vw 0vh 10vw;
+  margin: 6.2vw 0vw 0vh 10vw;
 `;
 
 export const Head4 = styled.div`
   color: #ffffff;
   font-weight: 700;
   font-size: 2.8vw;
-  line-height: 25vh;
+  line-height: 10vw;
   margin: 0vh 0vw 0vh 5vw;
 `;
 
@@ -64,7 +63,7 @@ export const Grid = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 2vw;
-  margin: 3vw 5vw;
+  margin: 2vw 3vw 3vw 3vw;
 `;
 
 export const GridColumn = styled.p`

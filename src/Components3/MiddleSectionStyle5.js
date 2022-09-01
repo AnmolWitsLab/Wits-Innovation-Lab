@@ -4,6 +4,16 @@ export const Div7 = styled.div`
   margin: 9vw 0 0 0;
 `;
 
+export const ImgRight = styled.div`
+  position: absolute;
+  width: calc(100% - 63.2%);
+  right: 0;
+`;
+
+export const BgImg = styled.img`
+  width: calc(100%);
+`;
+
 export const Blog = styled.div`
   display: flex;
   flex-direction: column;
@@ -29,6 +39,7 @@ export const Head = styled.h1`
 export const Section = styled.div`
   display: flex;
   align-items: center;
+  z-index: 1;
 `;
 
 export const Pera6 = styled.p`
@@ -62,6 +73,7 @@ export const Grid = styled.div`
   height: fit-content;
   width: fit-content;
   gap: 1.5vw;
+  position: relative;
 `;
 
 export const Wil = styled.img`
@@ -70,16 +82,42 @@ export const Wil = styled.img`
   height: 100%;
 `;
 
-export const WilBlog = styled.p``;
+export const Content = styled.div`
+  position: absolute;
+  top: clamp(6rem, 24.2vw, 40rem);
+  right: clamp(1rem, 31vw, 50rem);
+  background: #1d2e88;
+  border-radius: 0.8vw;
+  padding: 2.5vw 0 0vw 1.7vw;
+  width: clamp(1rem, 35.5vw, 40rem);
+  height: clamp(1rem, 10.95vw, 20rem);
+`;
 
-export const Ame = styled.p``;
+export const WilBlog = styled.h3`
+  color: white;
+  font-size: clamp(0.8rem, 1.6vw, 1.5rem);
+  font-weight: 700;
+`;
+
+export const Ame = styled.p`
+  margin: 1vw 0 0 0;
+  color: white;
+  font-size: clamp(0.52rem, 1.1vw, 1.5rem);
+`;
 
 export const Blockchain = styled.img`
   width: clamp(10rem, 29.5vw, 60rem);
   grid-area: blockchain;
 `;
 
-export const Block = styled.p``;
+export const Block = styled.p`
+  position: absolute;
+  top: clamp(6rem, 13.5vw, 16rem);
+  right: clamp(1rem, 19vw, 42rem);
+  color: white;
+  font-size: clamp(0.8rem, 1.6vw, 1.5rem);
+  font-weight: 700;
+`;
 
 export const Commercial = styled.img`
   width: clamp(10rem, 29.5vw, 60rem);
@@ -87,4 +125,11 @@ export const Commercial = styled.img`
   grid-area: commercial;
 `;
 
-export const Comm = styled.p``;
+export const Comm = styled.p`
+  position: absolute;
+  top: clamp(6rem, 31vw, 40rem);
+  right: clamp(1rem, 18.5vw, 25rem);
+  color: white;
+  font-size: clamp(0.8rem, 1.6vw, 1.5rem);
+  font-weight: 700;
+`;

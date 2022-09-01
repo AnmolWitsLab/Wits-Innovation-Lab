@@ -30,7 +30,7 @@ export const Head2 = styled.div`
   line-height: 4.49vw;
   color: #1d1d1d;
   width: 23vw;
-  border-bottom: 12px solid #f9c51c;
+  border-bottom: 0.8vw solid #f9c51c;
   height: 3.77vw;
 `;
 

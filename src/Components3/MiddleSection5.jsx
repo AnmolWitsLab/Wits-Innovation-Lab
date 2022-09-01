@@ -1,6 +1,8 @@
 import React from "react";
 import {
   Div7,
+  ImgRight,
+  BgImg,
   Blog,
   Pera5,
   Head,
@@ -11,6 +13,7 @@ import {
   RightArrow,
   Grid,
   Wil,
+  Content,
   WilBlog,
   Ame,
   Blockchain,
@@ -22,6 +25,9 @@ import {
 function MiddleSection5() {
   return (
     <Div7>
+      <ImgRight>
+        <BgImg src="./images/bg.png" alt="bg" />
+      </ImgRight>
       <Blog>
         <Pera5>Our Thoughts in</Pera5>
         <Head>Our Blog</Head>
@@ -37,11 +43,13 @@ function MiddleSection5() {
       </Blog>
       <Grid>
         <Wil src="./images/wil.png" alt="wil" />
-        <WilBlog>WIL Blog</WilBlog>
-        <Ame>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat
-        </Ame>
+        <Content>
+          <WilBlog>WIL Blog</WilBlog>
+          <Ame>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat
+          </Ame>
+        </Content>
         <Blockchain src="./images/blockchain.png" alt="blockchain" />
         <Block>Block Chain</Block>
         <Commercial src="./images/commercial.png" alt="commercial" />
