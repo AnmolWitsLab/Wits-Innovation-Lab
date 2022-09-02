@@ -45,7 +45,6 @@ export const Section = styled.div`
 export const Pera6 = styled.p`
   color: rgba(40, 40, 40, 1);
   text-transform: capitalize;
-  font-size: clamp(0.8rem, 1.4vw, 2rem);
   width: calc(100% - 35.5%);
   font-weight: 600;
   font-size: 1.38vw;
