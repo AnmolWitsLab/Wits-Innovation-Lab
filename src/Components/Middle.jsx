@@ -1,34 +1,43 @@
 import React from "react";
-import { Div2 } from "./MiddleStyle";
+import Middle2 from "./Middle2";
+import MiddleImage from "./MiddleImage";
+import {
+  Div2,
+  Heading,
+  Span,
+  Pera,
+  MiddleBtn,
+  BtnTellUs,
+  BtnArrow,
+  Ico,
+} from "./MiddleStyle";
 
 function Middle() {
   return (
-    <Div2>
-      <h1 className="middle-h1">
-        We're not just IT.
-        <br />
-        <span>
-          We're a Business
-          <br />
-          Transformation
-          <br />
-          Company.
-        </span>
-      </h1>
-      <p className="middle-p">
-        We are more than just a business. We're a community of
-        <br />
-        like-minded individuals who share our love for
-        <br />
-        connecting people with the best in their area.
-      </p>
-      <div className="middle-btn">
-        <button className="first">Tell Us About Your Project</button>
-        <button className="second">
-          <i className="fa-solid fa-angle-right"></i>
-        </button>
-      </div>
-    </Div2>
+    <>
+      <Div2>
+        <Heading>
+          We're not just IT. We're a
+          <Span> Business Transformation Company.</Span>
+        </Heading>
+        <Pera>
+          We are more than just a business. We're a community of like-minded
+          individuals who share our love for connecting people with the best in
+          their area.
+        </Pera>
+        <MiddleBtn>
+          <BtnTellUs>Tell Us About Your Project</BtnTellUs>
+          <BtnArrow>
+            <Ico>
+              <i className="fa-solid fa-angle-right"></i>
+            </Ico>
+          </BtnArrow>
+        </MiddleBtn>
+
+        <Middle2 />
+        <MiddleImage />
+      </Div2>
+    </>
   );
 }
 
