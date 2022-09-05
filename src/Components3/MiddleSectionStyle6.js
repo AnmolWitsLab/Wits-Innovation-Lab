@@ -207,6 +207,45 @@ export const Boy3 = styled.img`
   width: calc(100% - 92.5%);
 `;
 
+export const JuliaDiv = styled.div`
+  display: flex;
+  z-index: 4;
+`;
+
+export const JuliaH = styled.h1`
+  position: absolute;
+  top: 26.2vw;
+  left: 36.5vw;
+  width: calc(100% - 72.22%);
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.6vw;
+`;
+
+export const JuliaP = styled.p`
+  position: absolute;
+  top: 28.5vw;
+  left: 36.2vw;
+  width: calc(100% - 71.5%);
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.1vw;
+  font-weight: 300;
+  word-spacing: 0.1vw;
+`;
+
+export const JuliaD = styled.p`
+  position: absolute;
+  top: 30.8vw;
+  left: 42.4vw;
+  width: clamp(8rem, 16vw, 20rem);
+  color: #ffffff;
+  text-align: center;
+  font-size: clamp(0.4rem, 0.87vw, 5rem);
+  font-weight: 300;
+  line-height: 1.2vw;
+`;
+
 export const Julia = styled.img`
   position: absolute;
   top: 10.4vw;

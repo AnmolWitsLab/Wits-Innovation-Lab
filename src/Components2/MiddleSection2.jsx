@@ -3,6 +3,8 @@ import {
   Mid,
   Head2,
   Head3,
+  Solution,
+  SolutionBg,
   D,
   Head4,
   Yellow,
@@ -19,6 +21,9 @@ function MiddleSection2() {
     <Mid>
       <Head2>We have got</Head2>
       <Head3>Solutions to Your Problems</Head3>
+      <Solution>
+        <SolutionBg src="./images/solution-bg.png" alt="solution-bg" />
+      </Solution>
       <D>
         <Head4>What are you looking for?</Head4>
         <Yellow></Yellow>

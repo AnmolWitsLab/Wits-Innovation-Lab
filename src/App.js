@@ -7,6 +7,7 @@ import MiddleSection2 from "./Components2/MiddleSection2";
 import MiddleSection3 from "./Components2/MiddleSection3";
 import MiddleSection4 from "./Components2/MiddleSection4";
 import ContactUs from "./Components3/ContactUs";
+import Footer from "./Components3/Footer";
 import MiddleSection5 from "./Components3/MiddleSection5";
 import MiddleSection6 from "./Components3/MiddleSection6";
 
@@ -22,6 +23,7 @@ function App() {
       <MiddleSection5 />
       <MiddleSection6 />
       <ContactUs />
+      <Footer />
     </Contain>
   );
 }

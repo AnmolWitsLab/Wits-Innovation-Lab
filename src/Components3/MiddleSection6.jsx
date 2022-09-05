@@ -27,6 +27,10 @@ import {
   Blue2,
   Boy2,
   Boy3,
+  JuliaDiv,
+  JuliaH,
+  JuliaP,
+  JuliaD,
   Julia,
 } from "./MiddleSectionStyle6";
 
@@ -60,6 +64,14 @@ function MiddleSection6() {
         <Blue2 src="./images/blue2.png" alt="blue2" />
         <Boy2 src="./images/boy2.png" alt="boy2" />
         <Boy3 src="./images/boy3.png" alt="boy3" />
+        <JuliaDiv>
+          <JuliaH>Julia Carter</JuliaH>
+          <JuliaP>Sr. Developer</JuliaP>
+          <JuliaD>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.
+          </JuliaD>
+        </JuliaDiv>
         <Julia src="./images/julia.png" alt="julia" />
       </Bottom>
     </Div8>

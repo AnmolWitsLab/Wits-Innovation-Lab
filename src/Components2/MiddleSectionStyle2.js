@@ -21,6 +21,19 @@ export const Head3 = styled.h1`
   margin: 0vh 0vw 0vh 10vw;
 `;
 
+export const Solution = styled.div`
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  margin: -5vw 0 0 0;
+  width: calc(100% - 10);
+`;
+
+export const SolutionBg = styled.img`
+  width: calc(100%);
+  max-height: 61vw;
+`;
+
 export const D = styled.div`
   background: #1d2e88;
   border: 1px solid #1d2e88;
