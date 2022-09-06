@@ -38,11 +38,21 @@ import {
   AllSame,
   RightDiv,
   AllDiv,
+  LeftImage,
+  LeftImg,
+  RightImage,
+  RightImg,
 } from "./FooterStyle";
 
 function Footer() {
   return (
     <AllDiv>
+      <LeftImage>
+        <LeftImg src="./images/left-img.png" alt="left-img" />
+      </LeftImage>
+      <RightImage>
+        <RightImg src="./images/right-img.png" alt="right-img" />
+      </RightImage>
       <LastSection>
         <FooterLeft>
           <FooterL>

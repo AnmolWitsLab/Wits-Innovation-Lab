@@ -97,7 +97,7 @@ export const Inter = styled.p`
 export const Select = styled.select`
   background: #ffffff;
   border: 1px solid #000000;
-  width: 33.88vw;
+  outline: none;
   height: 3.05vw;
   padding: 0 0 0 0.8vw;
   margin: 1vw 0 0 0;
@@ -123,6 +123,7 @@ export const Input2 = styled.input`
   font-size: clamp(0.4rem, 1.11vw, 5rem);
   border: none;
   border-bottom: 1px solid #000000;
+  outline: none;
   background: #ffffff;
   width: calc(100% - 5%);
 `;

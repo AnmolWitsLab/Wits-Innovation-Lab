@@ -5,6 +5,29 @@ export const AllDiv = styled.div`
   margin: 19.5vw 0 0 0;
   border-radius: 0 12vw 0 0;
   padding: 4vw 0 2vw 0;
+  position: relative;
+`;
+
+export const LeftImage = styled.div`
+  position: absolute;
+  width: calc(100% - 83.6%);
+  left: 0;
+  margin: 8.45vw 0 0 0;
+`;
+
+export const LeftImg = styled.img`
+  width: calc(100% - 0.4%);
+`;
+
+export const RightImage = styled.div`
+  width: calc(100% - 10.8%);
+`;
+
+export const RightImg = styled.img`
+  width: calc(100% - 66.8%);
+  top: 0;
+  position: absolute;
+  right: 0;
 `;
 
 export const LastSection = styled.div`

@@ -9,7 +9,7 @@ export const Ico = styled.i`
 
 export const Heading = styled.h1`
   width: clamp(330px, 38vw, 60rem);
-  font-size: clamp(2.3rem, 4.3vw, 7rem);
+  font-size: clamp(2rem, 4.3vw, 7rem);
   font-weight: 900;
 `;
 
@@ -19,8 +19,8 @@ export const Span = styled.span`
 
 export const Pera = styled.p`
   font-weight: 500;
-  width: clamp(350px, 35vw, 900px);
-  font-size: clamp(0.8rem, 1.3vw, 2rem);
+  width: clamp(273px, 35vw, 900px);
+  font-size: clamp(0.6rem, 1.3vw, 2rem);
   margin: 4vh 0 0 0;
 `;
 export const MiddleBtn = styled.div`

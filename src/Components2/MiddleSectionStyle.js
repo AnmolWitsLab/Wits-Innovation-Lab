@@ -7,14 +7,17 @@ export const Div4 = styled.div`
 
 export const Side = styled.div``;
 
-export const SideImg = styled.img``;
+export const SideImg = styled.img`
+  width: clamp(10rem, 17vw, 50rem);
+`;
 
 export const Both = styled.div`
   position: relative;
-  width: -1vw;
+
   transform: rotate(-90deg);
-  top: clamp(18rem, 20vw, 40rem);
-  height: fit-content;
+  top: clamp(5.5rem, 8.2vw, 40rem);
+  left: clamp(10.5rem, 17.2vw, 20rem);
+  width: 12vw;
 `;
 
 export const Head = styled.div`
@@ -37,30 +40,31 @@ export const Head2 = styled.div`
 export const OurHead = styled.div``;
 
 export const Community = styled.p`
-  margin: 24vh 0vw 0vh 0vw;
-  max-width: 48vw;
+  margin: 14.5vw 0vw 0vh 0vw;
+  width: clamp(10rem, 62vw, 60rem);
 `;
 
 export const Span2 = styled.span`
   color: black;
   font-weight: 700;
-  font-size: 20px;
+  font-size: clamp(0.5rem, 1.5vw, 2.5rem);
 `;
 
 export const Para2 = styled.p`
-  margin-top: 4vh;
+  margin-top: 2vw;
+  font-size: clamp(0.6rem, 1.35vw, 15rem);
 `;
 
 export const Blank = styled.div`
   border-bottom: 3px solid #1d2e88;
-  width: 46.5vw;
-  height: 6.5vh;
-  margin: 2vh 0vw 0vh 0vw;
+  width: 60.5vw;
+  margin: 2.8vw 0vw 0vh 0vw;
 `;
 
 export const Team = styled.div`
   display: flex;
-  margin: 8vh 0vw 0vh 0vw;
+  margin: 2.8vw 0vw 0vh 0vw;
+
   justify-content: space-between;
 `;
 
@@ -71,18 +75,18 @@ export const Cod = styled.div`
 export const Code = styled.div`
   align-items: center;
   font-weight: 700;
-  font-size: 4vw;
+  font-size: clamp(1rem, 4vw, 5rem);
 `;
 
 export const C = styled.p`
   font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
+
+  font-size: clamp(0.6rem, 2vw, 3rem);
 `;
 
 export const Hr = styled.div`
   border-right: 1px solid #1d2e88;
-  height: 10vh;
+  height: 4.5vw;
   margin: 2vh 0vw 0vh 0vw;
 `;
 export const Mem = styled.div`
@@ -92,13 +96,13 @@ export const Mem = styled.div`
 export const Members = styled.div`
   align-items: center;
   font-weight: 700;
-  font-size: 4vw;
+  font-size: clamp(1rem, 4vw, 5rem);
 `;
 
 export const M = styled.p`
   font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
+
+  font-size: clamp(0.6rem, 2vw, 3rem);
 `;
 
 export const Hr2 = styled.div`
@@ -114,11 +118,11 @@ export const Pr = styled.div`
 export const Projects = styled.div`
   align-items: center;
   font-weight: 700;
-  font-size: 4vw;
+  font-size: clamp(1rem, 4vw, 5rem);
 `;
 
 export const Pro = styled.p`
   font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
+
+  font-size: clamp(0.6rem, 2vw, 3rem);
 `;

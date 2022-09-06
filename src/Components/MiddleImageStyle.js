@@ -9,7 +9,7 @@ export const MiddleImg = styled.div`
 `;
 
 export const Group = styled.img`
-  width: clamp(10rem, 50vw, 40rem);
-  height: clamp(2rem, 0, 40rem);
+  width: clamp(26.5rem, 45vw, 65rem);
   margin-top: 1.8vh;
+  height: clamp(35.8rem, 58vw, 60rem);
 `;
