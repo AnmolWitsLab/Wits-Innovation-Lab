@@ -42,11 +42,11 @@ import {
   RightImg,
 } from "styles/components/Footer";
 
-import Facebook from "assets/svg/Facebook";
-import Linkedin from "assets/svg/Linkedin";
-import Twitter from "assets/svg/Twitter";
-import YouTube from "assets/svg/YouTube";
-import Mail from "assets/svg/Mail";
+import Facebook from "assets/svg/facebook";
+import Linkedin from "assets/svg/linkedin";
+import Twitter from "assets/svg/twitter";
+import YouTube from "assets/svg/youTube";
+import Mail from "assets/svg/mail";
 import left from "assets/images/left-img.png";
 import right from "assets/images/right-img.png";
 import wits from "assets/images/wits-footer-logo.png";

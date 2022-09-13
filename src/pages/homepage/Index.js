@@ -1,5 +1,5 @@
 import { Contain } from "styles/components/Header";
-import Header from "components/Header/Index";
+import Header from "components/Header";
 import Intro from "views/homepage/intro/index";
 import OurNumbers from "views/homepage/ourNumbers";
 import Solutions from "views/homepage/solutions";
