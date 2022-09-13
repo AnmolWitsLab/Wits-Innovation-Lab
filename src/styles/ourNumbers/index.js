@@ -40,7 +40,7 @@ export const Head2 = styled.div`
 export const OurHead = styled.div``;
 
 export const Community = styled.p`
-  margin: 14.5vw 0vw 0vh 0vw;
+  margin: 13.2vw 0vw 0vh 0vw;
   width: clamp(10rem, 62vw, 60rem);
 `;
 

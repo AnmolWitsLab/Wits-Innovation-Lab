@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AllDiv = styled.div`
+export const AllSection = styled.div`
   background-color: black;
   margin: 19.5vw 0 0 0;
   border-radius: 0 12vw 0 0;
@@ -64,7 +64,7 @@ export const Text = styled.p`
   line-height: 1.4vw;
 `;
 
-export const FooterLeftDiv = styled.div`
+export const FooterLeftSection = styled.div`
   display: flex;
 `;
 
@@ -100,7 +100,7 @@ export const Gn = styled.h5`
   font-weight: 600;
 `;
 
-export const BlankDiv = styled.div`
+export const BlankRow = styled.div`
   border-bottom: 0.3vw solid #f9c51c;
   width: 9.15vw;
   margin: 0.4vw 0 0 0;
@@ -127,7 +127,7 @@ export const Co = styled.h5`
   font-weight: 600;
 `;
 
-export const EmptyDiv = styled.div`
+export const EmptyRow = styled.div`
   border-bottom: 0.3vw solid #f9c51c;
   width: 9.15vw;
   margin: 0.4vw 0 0 0;
@@ -142,7 +142,7 @@ export const ContactUsDrop = styled.p`
   font-size: 0.95vw;
   font-weight: 300;
 `;
-export const ContDiv = styled.div`
+export const ContSection = styled.div`
   margin: 2vw 0 0 0;
 `;
 
@@ -179,7 +179,7 @@ export const Subs = styled.h3`
   width: calc(100% - 20%);
 `;
 
-export const InputDiv = styled.div`
+export const InputSection = styled.div`
   background: #ffffff;
   box-shadow: 0px 0px 25.3647px rgba(0, 0, 0, 0.06);
   padding: 0.7vw 0.6vw 0.7vw 1.2vw;
@@ -220,7 +220,7 @@ export const WhiteSection = styled.div`
   margin: 3vw 0 0 0;
 `;
 
-export const LeftDiv = styled.div`
+export const LeftSection = styled.div`
   display: flex;
   gap: 4vw;
 `;
@@ -230,6 +230,6 @@ export const AllSame = styled.p`
   font-weight: 500;
 `;
 
-export const RightDiv = styled.div`
+export const RightSection = styled.div`
   display: flex;
 `;

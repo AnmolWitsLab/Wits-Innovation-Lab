@@ -1,7 +1,6 @@
 import { Contain } from "styles/components/Header";
 import Header from "components/Header/Index";
-import Intro from "views/homepage/intro";
-import IntroImage from "views/homepage/introImage";
+import Intro from "views/homepage/intro/index";
 import OurNumbers from "views/homepage/ourNumbers";
 import Solutions from "views/homepage/solutions";
 import OurClients from "views/homepage/ourClients";
@@ -16,7 +15,6 @@ function Index() {
     <Contain>
       <Header />
       <Intro />
-      <IntroImage />
       <OurNumbers />
       <Solutions />
       <OurClients />

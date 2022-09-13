@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Div8 = styled.div`
+export const ContactWrap = styled.div`
   margin: 12vw 9.5vw 0 9.5vw;
 `;
 
@@ -31,7 +31,7 @@ export const Contact = styled.h1`
   margin: 0.8vw 0 1vw 0;
 `;
 
-export const Pera9 = styled.p`
+export const Question = styled.p`
   color: rgba(40, 40, 40, 1);
   text-transform: capitalize;
   font-size: clamp(0.8rem, 1.22vw, 50rem);
@@ -48,7 +48,7 @@ export const Input = styled.div`
   height: 49.2vw;
 `;
 
-export const Left = styled.div`
+export const BlockLeft = styled.div`
   background-color: rgba(29, 46, 136, 1);
   width: calc(100% - 57.2%);
 
@@ -170,18 +170,18 @@ export const LineSection = styled.div`
   width: calc(100% - 5%);
 `;
 
-export const Line1 = styled.div`
+export const BorderWrapLeft = styled.div`
   border-bottom: 0.1vw solid #333333;
   width: calc(100% - 55%);
 `;
 
-export const Or = styled.p`
+export const BorderContent = styled.p`
   color: #333333;
   font-weight: 600;
   font-size: clamp(0.4rem, 1.25vw, 5rem);
 `;
 
-export const Line2 = styled.div`
+export const BorderWrapRight = styled.div`
   border-bottom: 0.1vw solid #333333;
   width: calc(100% - 55%);
 `;

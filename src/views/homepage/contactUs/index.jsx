@@ -1,13 +1,13 @@
 import React from "react";
 import {
-  Div8,
+  ContactWrap,
   ContactBg,
   ContactBgImg,
   Got,
   Contact,
-  Pera9,
+  Question,
   Input,
-  Left,
+  BlockLeft,
   CircleImg,
   Circle,
   Project,
@@ -23,9 +23,9 @@ import {
   SendBtn,
   Send,
   LineSection,
-  Line1,
-  Or,
-  Line2,
+  BorderWrapLeft,
+  BorderContent,
+  BorderWrapRight,
   LDesc,
   LineDesc,
   WholeSection,
@@ -48,19 +48,19 @@ import calendly from "assets/images/calendly.png";
 
 function ContactUs() {
   return (
-    <Div8>
+    <ContactWrap>
       <ContactBg>
         <ContactBgImg src={contactBg} alt="contact-bg" />
       </ContactBg>
       <Got>Got an idea?</Got>
       <Contact>Contact Us</Contact>
-      <Pera9>You have questions. We have answers.</Pera9>
+      <Question>You have questions. We have answers.</Question>
       <Input>
-        <Left>
+        <BlockLeft>
           <CircleImg src={mask} alt="mask" />
           <Circle src={circle} alt="circle" />
           <Project>Have a Project? We would love to help</Project>
-        </Left>
+        </BlockLeft>
         <WrapRight>
           <Right>
             <Inter>I’m interested in....</Inter>
@@ -84,9 +84,9 @@ function ContactUs() {
               <Send>Send Request</Send>
             </SendBtn>
             <LineSection>
-              <Line1></Line1>
-              <Or>or</Or>
-              <Line2></Line2>
+              <BorderWrapLeft></BorderWrapLeft>
+              <BorderContent>or</BorderContent>
+              <BorderWrapRight></BorderWrapRight>
             </LineSection>
             <LDesc>
               <LineDesc>
@@ -107,7 +107,7 @@ function ContactUs() {
           </Right>
         </WrapRight>
       </Input>
-    </Div8>
+    </ContactWrap>
   );
 }
 

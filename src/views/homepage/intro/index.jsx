@@ -9,8 +9,8 @@ import {
   BtnArrow,
   Ico,
 } from "styles/intro";
-import TellUs from "views/homepage/tellUs";
-import IntroImage from "views/homepage/introImage";
+import TellUs from "views/homepage/intro/tellUs";
+import IntroImage from "views/homepage/intro/introImage";
 
 function Intro() {
   return (

@@ -7,35 +7,35 @@ import {
   FooterLogo,
   FooterText,
   Text,
-  FooterLeftDiv,
+  FooterLeftSection,
   AboutUs,
   Au,
   AboutDrop,
   General,
   Gn,
-  BlankDiv,
+  BlankRow,
   Drop,
   GeneralDrop,
   Cont,
   Co,
-  EmptyDiv,
+  EmptyRow,
   CoDrop,
   ContactUsDrop,
-  ContDiv,
+  ContSection,
   FooterRight,
   FooterR,
   FollowUsR,
   FooterIcon,
   Sub,
   Subs,
-  InputDiv,
+  InputSection,
   Email,
   Subscribe,
   WhiteSection,
-  LeftDiv,
+  LeftSection,
   AllSame,
-  RightDiv,
-  AllDiv,
+  RightSection,
+  AllSection,
   LeftImage,
   LeftImg,
   RightImage,
@@ -53,7 +53,7 @@ import wits from "assets/images/wits-footer-logo.png";
 
 function Footer() {
   return (
-    <AllDiv>
+    <AllSection>
       <LeftImage>
         <LeftImg src={left} alt="left-img" />
       </LeftImage>
@@ -74,7 +74,7 @@ function Footer() {
               </Text>
             </FooterText>
           </FooterL>
-          <FooterLeftDiv>
+          <FooterLeftSection>
             <AboutUs>
               <Au>About Us</Au>
               <AboutDrop>Services</AboutDrop>
@@ -84,7 +84,7 @@ function Footer() {
             </AboutUs>
             <General>
               <Gn>General</Gn>
-              <BlankDiv></BlankDiv>
+              <BlankRow></BlankRow>
               <Drop>
                 <GeneralDrop>Company</GeneralDrop>
                 <GeneralDrop>Career</GeneralDrop>
@@ -94,17 +94,17 @@ function Footer() {
             </General>
             <Cont>
               <Co>Contact Us</Co>
-              <EmptyDiv></EmptyDiv>
+              <EmptyRow></EmptyRow>
               <CoDrop>
                 <ContactUsDrop>SCO 40-41 D, 3rd floor,</ContactUsDrop>
                 <ContactUsDrop>City Heart, Kharar, Punjab-140301</ContactUsDrop>
-                <ContDiv>
+                <ContSection>
                   <ContactUsDrop>Unit 37 Tileyard Road, N7 9AH</ContactUsDrop>
                   <ContactUsDrop>California, United States</ContactUsDrop>
-                </ContDiv>
+                </ContSection>
               </CoDrop>
             </Cont>
-          </FooterLeftDiv>
+          </FooterLeftSection>
         </FooterLeft>
         <FooterRight>
           <FooterR>
@@ -119,26 +119,26 @@ function Footer() {
           <Sub>
             <Subs>Subscribe to Our Newsletter</Subs>
           </Sub>
-          <InputDiv>
+          <InputSection>
             <Mail />
             <Email type="text" placeholder="Enter Your Email" />
             <Subscribe>Subscribe</Subscribe>
-          </InputDiv>
+          </InputSection>
         </FooterRight>
       </LastSection>
       <WhiteSection>
-        <LeftDiv>
+        <LeftSection>
           <AllSame>Terms & Conditions</AllSame>
           <AllSame>Privacy Policy</AllSame>
           <AllSame>Legal</AllSame>
-        </LeftDiv>
-        <RightDiv>
+        </LeftSection>
+        <RightSection>
           <AllSame>
             Copyright © 2020. witsinnovationlab. All rights reserved.
           </AllSame>
-        </RightDiv>
+        </RightSection>
       </WhiteSection>
-    </AllDiv>
+    </AllSection>
   );
 }
 
